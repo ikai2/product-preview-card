@@ -96,6 +96,7 @@ button {
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    font-weight: bold;
 }
 button:hover {
     background-color: var(--very-dark-cyan);
