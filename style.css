@@ -49,7 +49,12 @@ main {
 button {
     font-family: "Montserrat", sans-serif;
 }
-
+.product-type {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
 h1,
 .product-price {
     font-family: "Fraunces", sans-serif;
@@ -70,11 +75,13 @@ h1 {
 
 .product-description {
     margin-bottom: 30px;
+    line-height: 23px;
 }
 
 .product-price {
     color: var(--dark-cyan);
     font-size: 2rem;
+    font-size: 14px;
 }
 
 .prices {
@@ -82,6 +89,11 @@ h1 {
     align-items: center;
     gap: 20px;
     margin-bottom: 30px;
+}
+
+.product-compare-at-price {
+    font-size: 13px;
+    text-decoration: strikethrough;
 }
 
 button {
